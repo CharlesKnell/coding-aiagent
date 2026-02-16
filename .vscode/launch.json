@@ -1,0 +1,21 @@
+{
+    "configurations": [
+
+        
+        {
+            "name": "Python Debugger: Current File with Arguments",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            //"args": "${command:pickArgs}"
+            "args": ["fix the bug: 3 + 7 * 2 shouldn't be 20"]
+        },
+        {
+            "name": "Python Debugger: Python File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}"
+        }
+    ]
+}
